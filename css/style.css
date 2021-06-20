@@ -1061,6 +1061,21 @@ section.project-section .project-item-details{
     section.about .content .left {
         margin-bottom: 5rem;
     }
+    section.skills .content{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    section.skills .content .left{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-left: 80px;
+    }
+    section.about .content .right p span:nth-child(1){
+        width: 140px;
+    }
+    section.about .content .right p span:nth-child(2){
+        padding-left: 160px;
+    }
 }
 /* for phones  */
 @media (max-width: 768px)  {
@@ -1091,6 +1106,7 @@ section.project-section .project-item-details{
     section.skills .content .left{
         display: grid;
         grid-template-columns: 1fr;
+        justify-items: center;
     }
     section.about .content .right p span:nth-child(1){
         width: 100px;
