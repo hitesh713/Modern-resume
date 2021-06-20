@@ -1068,7 +1068,7 @@ section.project-section .project-item-details{
     section.skills .content .left{
         display: grid;
         grid-template-columns: 1fr;
-        padding-left: 80px;
+        padding-left: 0px;
     }
     section.about .content .right p span:nth-child(1){
         width: 140px;
@@ -1096,6 +1096,29 @@ section.project-section .project-item-details{
     }
     section.project-section .project-wrapper {
         margin-top: 0;
+    }
+}
+@media (max-width: 450px) and (min-width: 360px){
+    section.about .content{
+        display: block;
+    }
+    section.about .content .left {
+        margin-bottom: 5rem;
+    }
+    section.skills .content{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    section.skills .content .left{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-left: 0px;
+    }
+    section.about .content .right p span:nth-child(1){
+        width: 140px;
+    }
+    section.about .content .right p span:nth-child(2){
+        padding-left: 160px;
     }
 }
 @media (max-width: 359px) {
